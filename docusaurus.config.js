@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Notes',
-  tagline: 'Personal Notes & Documentation',
+  title: 'マイノート',
+  tagline: '個人的なノートとドキュメント',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,24 +20,24 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://mynotes.example.jp',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'mynotes', // Usually your GitHub org/user name.
+  projectName: 'my-notes', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // useful metadata like html lang. For example, if your site is Japanese, you
+  // may want to replace "en" with "ja".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ja',
+    locales: ['ja'],
   },
 
   presets: [
@@ -64,9 +64,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Notes',
+        title: 'マイノート',
         logo: {
-          alt: 'Notes Logo',
+          alt: 'ノートロゴ',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,13 +74,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Notes',
+            label: 'ノート',
           },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Notes. Built with Docusaurus.`,
+        copyright: `著作権 © ${new Date().getFullYear()} マイノート。Docusaurusで構築。`,
       },
       prism: {
         theme: prismThemes.github,

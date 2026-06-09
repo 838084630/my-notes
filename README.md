@@ -1,24 +1,24 @@
-# My Notes
+# マイノート
 
-Personal notes and documentation built with [Docusaurus](https://docusaurus.io/).
+個人的なノートとドキュメント、[Docusaurus](https://docusaurus.io/) で構築されました。
 
-## Setup
+## セットアップ
 
 ```bash
 yarn
 ```
 
-## Development
+## 開発
 
-Start local development server:
+ローカル開発サーバーを起動します：
 
 ```bash
 yarn start
 ```
 
-## Build
+## ビルド
 
-Generate static site:
+静的サイトを生成します：
 
 ```bash
 yarn build
