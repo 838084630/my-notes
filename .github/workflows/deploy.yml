@@ -22,11 +22,11 @@ jobs:
 
       # 3️⃣ install dependencies
       - name: Install dependencies
-        run: npm install
+        run: yarn install --frozen-lockfile
 
       # 4️⃣ build static website
       - name: Build Docusaurus
-        run: npm run build
+        run: yarn build
 
       # 5️⃣ configure AWS credentials
       - name: Configure AWS credentials
