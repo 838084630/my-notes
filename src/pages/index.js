@@ -35,35 +35,13 @@ export default function Home() {
               <h3>Flink</h3>
               <p>ストリーム処理フレームワークガイド</p>
             </div>
-          </div>
-
-          <div className={styles.features}>
             <div className={styles.feature}>
               <h3>Kubenetes</h3>
-              <p>クラウドコンピューティングのノートとチュートリアル</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Kafka</h3>
-              <p>メッセージストリーミングプラットフォームのドキュメント</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Flink</h3>
               <p>ストリーム処理フレームワークガイド</p>
             </div>
-          </div>
-
-          <div className={styles.features}>
             <div className={styles.feature}>
               <h3>Terraform</h3>
-              <p>クラウドコンピューティングのノートとチュートリアル</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Kafka</h3>
-              <p>メッセージストリーミングプラットフォームのドキュメント</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Flink</h3>
-              <p>ストリーム処理フレームワークガイド</p>
+              <p>インフラストラクチャをコードで管理するためのツール</p>
             </div>
           </div>
         </div>
