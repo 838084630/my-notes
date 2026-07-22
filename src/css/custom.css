@@ -6,29 +6,128 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #1f5e3d;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #4338ca;
+  --ifm-color-primary-darker: #3730a3;
+  --ifm-color-primary-darkest: #312e81;
+  --ifm-color-primary-light: #6366f1;
+  --ifm-color-primary-lighter: #818cf8;
+  --ifm-color-primary-lightest: #c7d2fe;
   --ifm-code-font-size: 95%;
-  --docusaurus-primary-color: #2e8555;
-  --docusaurus-secondary-color: #ebedf0;
+  --docusaurus-primary-color: #4f46e5;
+  --docusaurus-secondary-color: #eef2ff;
+  --ifm-background-color: #f8faff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-card-background-color: #ffffff;
+  --ifm-font-color-base: #1f2937;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #4db8a8;
-  --ifm-color-primary-dark: #38a896;
-  --ifm-color-primary-darker: #33a191;
-  --ifm-color-primary-darkest: #2d8e7c;
-  --ifm-color-primary-light: #62c8ba;
-  --ifm-color-primary-lighter: #69cec1;
-  --ifm-color-primary-lightest: #7dd5c8;
+  --ifm-color-primary: #8b5cf6;
+  --ifm-color-primary-dark: #7c3aed;
+  --ifm-color-primary-darker: #6d28d9;
+  --ifm-color-primary-darkest: #5b21b6;
+  --ifm-color-primary-light: #a78bfa;
+  --ifm-color-primary-lighter: #c4b5fd;
+  --ifm-color-primary-lightest: #ede9fe;
+  --ifm-background-color: #0f172a;
+  --ifm-navbar-background-color: #111827;
+  --ifm-card-background-color: #111827;
+  --ifm-font-color-base: #f9fafb;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 0 rgba(15, 23, 42, 0.08);
+  padding: 0.85rem 1.2rem;
+  min-height: 78px;
+}
+
+.navbar__inner {
+  min-height: 56px;
+}
+
+.navbar__logo img {
+  border-radius: 10px;
+  height: 42px;
+}
+
+.navbar__link {
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 0.45rem 0.7rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #0ea5e9 100%);
+  border-radius: 20px;
+  box-shadow: 0 18px 40px rgba(79, 70, 229, 0.22);
+}
+
+.hero h1,
+.hero p {
+  color: #fff;
+}
+
+.card,
+.theme-doc-markdown,
+.theme-doc-sidebar-item-category,
+.theme-doc-sidebar-item-link {
+  border-radius: 12px;
+}
+
+.main-wrapper {
+  max-width: none;
+  margin: 0;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(15, 23, 42, 0.06);
+  width: 280px;
+  flex: 0 0 280px;
+}
+
+.theme-doc-sidebar-menu {
+  font-size: 0.95rem;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.docItemCol_node_modules-@docusaurus-theme-classic-lib-theme-DocItem-Layout {
+  margin-left: 0;
+}
+
+.docItemContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocItem-Layout {
+  padding-left: 0.5rem;
+}
+
+.card:hover,
+.theme-doc-sidebar-item-category:hover,
+.theme-doc-sidebar-item-link:hover {
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+
+.button,
+.button:hover {
+  border-radius: 999px;
+}
+
+.markdown > h2,
+.markdown > h3 {
+  color: #312e81;
+}
+
+article.container {
+  padding-left: 0.5rem;
+}
+
+article .markdown {
+  max-width: none;
 }
 
 .docTitle_src-pages-index-module {
   font-size: 3rem;
 }
+

@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'マイノート',
-  tagline: '個人的なノートとドキュメント',
+  title: 'ポートフォリオ',
+  tagline: '自己紹介・職務経歴・学習ノート',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -64,15 +64,27 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'マイノート',
+        title: 'ポートフォリオ',
         logo: {
-          alt: 'ノートロゴ',
+          alt: 'ポートフォリオロゴ',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'introductionSidebar',
+            position: 'left',
+            label: '自己紹介',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'resumeSidebar',
+            position: 'left',
+            label: '職務経歴',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'notesSidebar',
             position: 'left',
             label: 'ノート',
           },
@@ -80,7 +92,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `著作権 © ${new Date().getFullYear()} マイノート。Docusaurusで構築。`,
+        copyright: `著作権 © ${new Date().getFullYear()} ポートフォリオ。Docusaurusで構築。`,
       },
       prism: {
         theme: prismThemes.github,

@@ -7,42 +7,32 @@ export default function Home() {
   return (
     <Layout
       title="ホーム"
-      description="個人的なノートとドキュメント">
+      description="自己紹介・職務経歴・学習ノートのポートフォリオ">
       <main>
         <div className={styles.container}>
           <div className={styles.hero}>
-            <h1 className={styles.title}>マイノート</h1>
-            <p className={styles.subtitle}>個人的なノート＆ドキュメント</p>
+            <h1 className={styles.title}>ポートフォリオ</h1>
+            <p className={styles.subtitle}>自己紹介、職務経歴、学習ノートをまとめたサイトです</p>
             <div className={styles.buttons}>
-              <Link
-                className={styles.button}
-                to="/docs">
-                読み始める →
+              <Link className={styles.button} to="/docs/introduction">
+                自己紹介を見る →
               </Link>
             </div>
           </div>
 
           <div className={styles.features}>
-            <div className={styles.feature}>
-              <h3>AWS</h3>
-              <p>クラウドコンピューティングのノートとチュートリアル</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Kafka</h3>
-              <p>メッセージストリーミングプラットフォームのドキュメント</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Flink</h3>
-              <p>ストリーム処理フレームワークガイド</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Kubenetes</h3>
-              <p>ストリーム処理フレームワークガイド</p>
-            </div>
-            <div className={styles.feature}>
-              <h3>Terraform</h3>
-              <p>インフラストラクチャをコードで管理するためのツール</p>
-            </div>
+            <Link className={styles.feature} to="/docs/introduction">
+              <h3>自己紹介</h3>
+              <p>あなたの強み、背景、やりたいことを整理して伝えます</p>
+            </Link>
+            <Link className={styles.feature} to="/docs/resume">
+              <h3>職務経歴</h3>
+              <p>実務経験、担当業務、成果を職場向けに分かりやすくまとめます</p>
+            </Link>
+            <Link className={styles.feature} to="/docs/notes">
+              <h3>ノート</h3>
+              <p>技術・学習内容を継続的に残し、面接や説明資料として活用できます</p>
+            </Link>
           </div>
         </div>
       </main>
