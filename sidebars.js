@@ -45,10 +45,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Kafka',
-      link: {
-        type: 'doc',
-        id: 'notes/kafka/overview',
-      },
       items: [
         {
           type: 'doc',
@@ -70,10 +66,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'AWS',
-      link: {
-        type: 'doc',
-        id: 'notes/aws/saa-notes',
-      },
       items: [
         {
           type: 'doc',
@@ -85,10 +77,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Java',
-      link: {
-        type: 'doc',
-        id: 'notes/java/overview',
-      },
       items: [
         {
           type: 'doc',
@@ -105,10 +93,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Datadog',
-      link: {
-        type: 'doc',
-        id: 'notes/datadog/overview',
-      },
       items: [
         {
           type: 'doc',
@@ -125,10 +109,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Terraform',
-      link: {
-        type: 'doc',
-        id: 'notes/terraform/overview',
-      },
       items: [
         {
           type: 'doc',
