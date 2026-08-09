@@ -53,7 +53,7 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'notes/aws/site-build-notes',
+          id: 'notes/aws/aws1',
           label: 'このサイトの構築手順',
         },
       ],

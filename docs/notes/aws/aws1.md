@@ -1,3 +1,8 @@
+---
+title: このサイトの構築手順
+sidebar_label: このサイトの構築手順
+---
+
 # Docusaurus を AWS (S3 + CloudFront + OAC) にデプロイする手順
 
 > 対象環境
