@@ -44,27 +44,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Kafka',
-      items: [
-        {
-          type: 'doc',
-          id: 'notes/kafka/overview',
-          label: '概要',
-        },
-        {
-          type: 'doc',
-          id: 'notes/kafka/consumer',
-          label: 'Consumerの概念',
-        },
-        {
-          type: 'doc',
-          id: 'notes/kafka/installation',
-          label: 'Kafkaのインストール',
-        },
-      ],
-    },
-    {
-      type: 'category',
       label: 'AWS',
       items: [
         {
@@ -72,53 +51,10 @@ const sidebars = {
           id: 'notes/aws/saa-notes',
           label: 'AWS SAA ノート',
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Java',
-      items: [
         {
           type: 'doc',
-          id: 'notes/java/overview',
-          label: '概要',
-        },
-        {
-          type: 'doc',
-          id: 'notes/java/collections',
-          label: 'コレクションの基礎',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Datadog',
-      items: [
-        {
-          type: 'doc',
-          id: 'notes/datadog/overview',
-          label: '概要',
-        },
-        {
-          type: 'doc',
-          id: 'notes/datadog/metrics',
-          label: 'メトリクス基礎',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Terraform',
-      items: [
-        {
-          type: 'doc',
-          id: 'notes/terraform/overview',
-          label: '概要',
-        },
-        {
-          type: 'doc',
-          id: 'notes/terraform/resources',
-          label: 'リソース構築',
+          id: 'notes/aws/site-build-notes',
+          label: 'このサイトの構築手順',
         },
       ],
     },
