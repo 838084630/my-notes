@@ -217,7 +217,7 @@ Deployment 创建出来的所有 Pod 都会继承这些 Annotation。
 
 ---
 
-## 5. ad.datadoghq.com/<container>.logs
+## 5. ad.datadoghq.com/\<container\>.logs
 
 例如：
 
