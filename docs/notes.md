@@ -2,7 +2,7 @@
 
 ## 技術ノート
 
-<!-- ### AWS
+### AWS
 - [AWS SAA ノート](./notes/aws/saa-notes)
-- [このサイトの構築手順](./notes/aws/site-build-notes) -->
+- [このサイトの構築手順](./notes/aws/aws1)
 
